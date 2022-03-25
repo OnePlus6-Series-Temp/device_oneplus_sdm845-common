@@ -349,6 +349,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     oneplus-fwk
 
+# OnePlusSettings
+PRODUCT_PACKAGES += \
+    OnePlusSettings
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
@@ -414,7 +418,7 @@ PRODUCT_PACKAGES += \
 
 # tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler
+    tri-state-key_daemon
 
 # Update engine
 PRODUCT_PACKAGES += \
